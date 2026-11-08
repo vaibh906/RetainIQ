@@ -8,7 +8,7 @@ df = pd.read_csv(DATA_PATH)
 
 # Separate numerical and categorical columns
 numerical_cols = df.select_dtypes(include=["int64", "float64"]).columns
-categorical_cols = df.select_dtypes(include=["object"]).columns
+categorical_cols = df.select_dtypes(include=["str"]).columns
 
 print("Numerical Features:")
 print(list(numerical_cols))
