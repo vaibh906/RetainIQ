@@ -9,7 +9,6 @@
   <img src="https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Machine%20Learning-Scikit--learn-orange?logo=scikitlearn&logoColor=white" />
   <img src="https://img.shields.io/badge/Status-In%20Development-yellow" />
-  <img src="https://img.shields.io/badge/License-MIT-green" />
 </p>
 
 ---
