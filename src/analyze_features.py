@@ -20,3 +20,11 @@ print(list(categorical_cols))
 print("\nUnique values in categorical columns:")
 for col in categorical_cols:
     print(f"{col}: {df[col].nunique()} unique values")
+
+
+# Numerical Feature Analysis
+print("\nNumerical Feature Statistics:")
+
+print(
+    df[numerical_cols].describe().round(2)
+)
